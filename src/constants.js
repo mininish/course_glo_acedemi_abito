@@ -1,0 +1,52 @@
+const cardArray = [
+  {
+    id: 1,
+    title: "Первый товар",
+    price: "171 Р",
+    address: "Казань, р-н Вахитовский",
+    date: "10 июля 11:39",
+    image: "static/img/card-img.jpg",
+  },
+  {
+    id: 2,
+    title: "Второй товар",
+    price: "172 Р",
+    address: "Казань, р-н Вахитовский",
+    date: "10 июля 11:39",
+    image: "static/img/card-img.jpg",
+  },
+  {
+    id: 3,
+    title: "Третий товар",
+    price: "173 Р",
+    address: "Казань, р-н Вахитовский",
+    date: "10 июля 11:39",
+    image: "static/img/card-img.jpg",
+  },
+  {
+    id: 4,
+    title: "Четвертый товар",
+    price: "174 Р",
+    address: "Казань, р-н Вахитовский",
+    date: "10 июля 11:39",
+    image: "static/img/card-img.jpg",
+  },
+  {
+    id: 5,
+    title: "Пятый товар",
+    price: "175 Р",
+    address: "Казань, р-н Вахитовский",
+    date: "10 июля 11:39",
+    image: "static/img/card-img.jpg",
+  },
+  {
+    id: 62,
+    title: "Шестой товар",
+    price: "176 Р",
+    address: "Казань, р-н Вахитовский",
+    date: "10 июля 11:39",
+    image: "static/img/card-img.jpg",
+  },
+];
+
+export { cardArray };

@@ -1,0 +1,29 @@
+.btn {
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Roboto;
+  cursor: pointer;
+
+  &.btn-active {
+    background: var(--color-blue);
+    color: white;
+  }
+
+  &.btn-outline {
+    color: var(--color-text);
+    background-color: transparent;
+  }
+
+  &.btn-large {
+    padding: 20px 72px;
+    height: fit-content;
+  }
+}

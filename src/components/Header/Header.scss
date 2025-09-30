@@ -1,0 +1,64 @@
+
+.header {
+  height: 90px;
+  padding-top: 30px;
+  padding-bottom: 24px;
+
+  .header-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      text-decoration: none;
+
+      color: var(--color-text);
+
+      .header-logo {
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+      }
+    }
+
+    .header-controls {
+
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: fit-content;
+
+      .login-text {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+      }
+
+      @media (max-width: 786px) {
+        display: none;
+      }
+    }
+
+    .header-burger {
+      display: none;
+
+      @media (max-width: 786px) {
+        display: block;
+      }
+
+      .burger__menu--icon {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+  }
+}
