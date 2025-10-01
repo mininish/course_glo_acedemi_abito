@@ -1,8 +1,10 @@
+import { NavLink } from "react-router";
+
 import "./Card.scss";
 
-function Card({ title, address, price, date, image }) {
+function Card({ title, address, price, date, image, id }) {
   return (
-    <a href="single.html" className="card">
+    <NavLink to={`/product/${id}`} className="card" end>
       <img src={image} alt="card" className="card--img" />
 
       <div className="card-info">
@@ -16,7 +18,7 @@ function Card({ title, address, price, date, image }) {
           <span className="card-time">{date}</span>
         </div>
       </div>
-    </a>
+    </NavLink>
   );
 }
 

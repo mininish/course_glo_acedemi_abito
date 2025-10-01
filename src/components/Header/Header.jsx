@@ -1,15 +1,17 @@
 import "./Header.scss";
 
+import { Link } from "react-router";
+
 function Header() {
   return (
     <header className="header">
       <div className="container">
         <div className="header-box">
-          <a className="header-logo" href="/">
+          <Link className="header-logo" to="/">
             <img src="/static/img/icons/box.svg" alt="box" />
 
             <span className="header-logo">Abito</span>
-          </a>
+          </Link>
 
           <div className="header-controls">
             <button className="btn btn-outline">Вход и регистрация</button>

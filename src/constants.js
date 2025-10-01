@@ -5,7 +5,8 @@ const cardArray = [
     price: "171 Р",
     address: "Казань, р-н Вахитовский",
     date: "10 июля 11:39",
-    image: "static/img/card-img.jpg",
+    image: "/static/img/card-img.jpg",
+    description: "Продаю не спеша самокат в хорошем состоянии.",
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ const cardArray = [
     price: "172 Р",
     address: "Казань, р-н Вахитовский",
     date: "10 июля 11:39",
-    image: "static/img/card-img.jpg",
+    image: "/static/img/card-img.jpg",
+    description: "Продаю не спеша самокат в хорошем состоянии.",
   },
   {
     id: 3,
@@ -21,7 +23,8 @@ const cardArray = [
     price: "173 Р",
     address: "Казань, р-н Вахитовский",
     date: "10 июля 11:39",
-    image: "static/img/card-img.jpg",
+    image: "/static/img/card-img.jpg",
+    description: "Продаю не спеша самокат в хорошем состоянии.",
   },
   {
     id: 4,
@@ -29,7 +32,8 @@ const cardArray = [
     price: "174 Р",
     address: "Казань, р-н Вахитовский",
     date: "10 июля 11:39",
-    image: "static/img/card-img.jpg",
+    image: "/static/img/card-img.jpg",
+    description: "Продаю не спеша самокат в хорошем состоянии.",
   },
   {
     id: 5,
@@ -37,15 +41,17 @@ const cardArray = [
     price: "175 Р",
     address: "Казань, р-н Вахитовский",
     date: "10 июля 11:39",
-    image: "static/img/card-img.jpg",
+    image: "/static/img/card-img.jpg",
+    description: "Продаю не спеша самокат в хорошем состоянии.",
   },
   {
-    id: 62,
+    id: 6,
     title: "Шестой товар",
     price: "176 Р",
     address: "Казань, р-н Вахитовский",
     date: "10 июля 11:39",
-    image: "static/img/card-img.jpg",
+    image: "/static/img/card-img.jpg",
+    description: "Продаю не спеша самокат в хорошем состоянии.",
   },
 ];
 

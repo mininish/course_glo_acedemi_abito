@@ -1,0 +1,23 @@
+.error-page {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  h1 {
+    font-size: 124px;
+    line-height: 124px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  a {
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
